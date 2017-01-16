@@ -17,25 +17,25 @@ High resolution spectrogram convnet:
 - 5 conv/pooling LeakyReLU layers with batch normalization and delta channel
 - global max pooling before output
 
-![A](https://raw.githubusercontent.com/karoldvl/BADC/master/results/A-filters.png)
+![A](https://raw.githubusercontent.com/karoldvl/BADC-2017/master/results/A-filters.png)
 
 #### run-B
 
 Same as `run-A`, different random seed.
 
-![B](https://raw.githubusercontent.com/karoldvl/BADC/master/results/B-filters.png)
+![B](https://raw.githubusercontent.com/karoldvl/BADC-2017/master/results/B-filters.png)
 
 #### run-A_ds
 
 Same as `run-A`, but low resolution (downsampled).
 
-![A_ds](https://raw.githubusercontent.com/karoldvl/BADC/master/results/A_ds-filters.png)
+![A_ds](https://raw.githubusercontent.com/karoldvl/BADC-2017/master/results/A_ds-filters.png)
 
 #### run-B_ds
 
 Sames as `run-A_ds`, different random seed.
 
-![B_ds](https://raw.githubusercontent.com/karoldvl/BADC/master/results/B_ds-filters.png)
+![B_ds](https://raw.githubusercontent.com/karoldvl/BADC-2017/master/results/B_ds-filters.png)
 
 #### run-23
 
@@ -50,7 +50,7 @@ When compared to runs `A_ds`/`B_ds`:
 
 Originally used shuffle_spec() with 5 segments (spec length of 475) and less noise augmentations.
 
-![23](https://raw.githubusercontent.com/karoldvl/BADC/master/results/23-filters.png)
+![23](https://raw.githubusercontent.com/karoldvl/BADC-2017/master/results/23-filters.png)
 
 #### run-26
 
@@ -62,4 +62,4 @@ When compared to runs `A`/`B`:
 - Lower learning rate
 - More epochs
 
-![26](https://raw.githubusercontent.com/karoldvl/BADC/master/results/26-filters.png)
+![26](https://raw.githubusercontent.com/karoldvl/BADC-2017/master/results/26-filters.png)
