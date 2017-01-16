@@ -33,7 +33,7 @@ Same as `run-A`, but low resolution (downsampled).
 
 #### run-B_ds
 
-Sames as `run-A_ds`, different random seed.
+Same as `run-A_ds`, different random seed.
 
 ![B_ds](https://raw.githubusercontent.com/karoldvl/BADC-2017/master/results/B_ds-filters.png)
 
